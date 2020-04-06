@@ -1,5 +1,5 @@
 html {
-    background-image: '../images/shoestore.jpg';
+    background-image: url('../images/shoestore.jpg');
 }
 
 header {

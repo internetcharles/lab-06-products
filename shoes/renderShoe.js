@@ -23,6 +23,12 @@ function renderShoe(shoes) {
     p2.textContent = usd;
     li.appendChild(p2);
 
+    const button = document.createElement('button');
+    button.textContent = 'Add';
+    button.value = shoes.id;
+    button.className = 'button';
+    p2.appendChild(button);
+
     return li;
 }
 
