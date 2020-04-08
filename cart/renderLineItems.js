@@ -1,3 +1,5 @@
+
+
 function calcLineItem(quantity, price) {
     let totalPrice = quantity * price;
     let roundPrice = Math.round(totalPrice * 100) / 100;
@@ -26,8 +28,6 @@ function renderTableRow(cartItem, shoe) {
     tr.appendChild(totalTd);
 
     return tr;
-}
-
 }
 
 export default renderTableRow;

@@ -39,7 +39,7 @@ const oldBoot = {
 };
 
 const yeezy = {
-    id: 'yeezy ',
+    id: 'yeezy',
     name: 'Yeezy',
     image: 'yeezy.jpg',
     description: 'I bought this single Yeezy shoe for three-thousand dollars. Why\'d I do this? I made a mistake.',
