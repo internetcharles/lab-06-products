@@ -1,0 +1,15 @@
+
+table {
+    width: 100%;
+    max-width: 750px;
+    margin: auto;
+}
+
+th {
+    background-color: lightgrey;
+    font-size: 30px;
+}
+
+tr {
+    background-color: white;
+}

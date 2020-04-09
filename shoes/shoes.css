@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+
+li {
+    list-style: none;
+    background-color: lightgrey;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;    
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#shoes li img {
+    height: 250px;
+    width: 98%;
+    margin-left: 2px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#shoes li {
+    width: 200px;
+    height: 450x;
+    margin: 10px;
+    border: 10px;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px lightblue;
+    border-radius: 10px;
+}
+
+.description {
+    width: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.price {
+    width: 180px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-left: 15%;
+    font-weight: bold;
+}
+
+.button {
+    margin-left: 15px;
+}
