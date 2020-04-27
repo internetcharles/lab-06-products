@@ -30,7 +30,7 @@ const orderTotal = calcOrderTotal(cart, shoes);
 orderTotalCell.textContent = orderTotal;
 
 // add validator for cart
-if (cart.length === 0 ) {
+if (cart.length === 0) {
     placeOrderButton.disabled = true;
 }
 else {
